@@ -1,3 +1,5 @@
 ### Compile & Run
-```mcs prime.cs
-time mono prime.exe```
+```
+mcs prime.cs
+time mono prime.exe
+```

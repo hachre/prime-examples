@@ -1,3 +1,5 @@
 ### Compile & Run
-```go build prime.go
-time ./prime```
+```
+go build prime.go
+time ./prime
+```

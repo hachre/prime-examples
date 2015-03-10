@@ -1,3 +1,5 @@
 ### Compile & Run
-```gcc -o prime prime.c
-time ./prime```
+```
+gcc -o prime prime.c
+time ./prime
+```

@@ -23,9 +23,9 @@ int main() {
 	int i = 0;
 
 	char str[80];
-   for (int a = 1; a <= 30000000; a++) {
+   	for (int a = 1; a <= 30000000; a++) {
 		if (isPrime(a)) {
-         //sprintf(str, "%d: is prime\n", a);
+        		//sprintf(str, "%d: is prime\n", a);
 			//printf("%s", str);
 			i++;
 			continue;

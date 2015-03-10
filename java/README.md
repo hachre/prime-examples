@@ -1,3 +1,5 @@
 ### Compile & Run
-```javac prime.java
-time java prime```
+```
+javac prime.java
+time java prime
+```

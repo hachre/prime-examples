@@ -1,2 +1,4 @@
 ### Run (there is no compilation stage)
-```time node prime.js```
+```
+time node prime.js
+```

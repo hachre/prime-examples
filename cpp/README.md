@@ -1,3 +1,5 @@
 ### Compile & Run
-```g++ -o prime prime.cpp
-time ./prime```
+```
+g++ -o prime prime.cpp
+time ./prime
+```
