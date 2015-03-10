@@ -20,11 +20,11 @@ int main() {
 
 	for (int a = 1; a <= 30000000; a++) {
 		if (isPrime(a)) {
-         		//std::cout << a << ": is prime\n";
+			//std::cout << a << ": is prime\n";
 			i++;
 			continue;
 		}
-	//std::cout << a << ": not prime\n";
+		//std::cout << a << ": not prime\n";
 	}
 
 	std::cout << "Found " << i << " primes.";

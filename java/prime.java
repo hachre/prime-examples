@@ -3,11 +3,11 @@ class prime {
 		int i = 0;
 
 		for (int a = 1; a <= 30000000; a++) {
-   			if (isPrime(a)) {
-   				//System.out.println(a + ": is prime");
+			if (isPrime(a)) {
+				//System.out.println(a + ": is prime");
 				i++;
-   				continue;
-   			}
+				continue;
+			}
 			//System.out.println(a + ": not prime");
 		}
 
@@ -18,7 +18,7 @@ class prime {
 		if (value <= 3) {
 			return value >= 2;
 		}
-   		if ((value%2 == 0) || (value%3 == 0)) {
+		if ((value%2 == 0) || (value%3 == 0)) {
 			return false;
 		}
 		for (int i = 5; i*i <= value; i += 6) {
