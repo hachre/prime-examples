@@ -1,5 +1,5 @@
 ### Compile & Run
 ```
-swiftc prime.swift
+swiftc -O prime.swift
 time ./prime
 ```
